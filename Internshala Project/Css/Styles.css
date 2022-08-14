@@ -183,3 +183,53 @@ margin: 3px;
     padding: 2px;
     background: transparent ;
 border: none;}
+
+.header-top{
+  display: flex;
+  flex-direction: row;
+  background-color: white;
+/*   width: 100%; */
+/*   margin: 10px; */
+   justify-content: space-between;
+   margin: 0 5rem;
+}
+.header-nav{
+  background-color: orange;
+  display: flex;
+  flex-direction: row;
+/*   width: 100px; */
+  margin: 0 5rem;
+}
+.top-left{
+  background-color: white;
+/*   width: 100px; */
+  margin: 10px;
+}
+.top-right{
+/*   background-color: red; */
+/*   width: 100px; */
+  margin: 10px; 
+}
+.logo{
+  height: 2rem
+}
+.top-btn{
+  padding: 0.5rem;
+  margin: 0.5rem;
+  border-radius: 0.5rem;
+  background-color: white;
+  border: 1px solid black;
+}
+.top-login-btn{
+  background-color: orange;
+  border: none;
+  padding: 0.6rem;
+}
+.top-btn:hover {
+  background-color: orange;
+  color: white;
+}
+.top-login-btn:hover {
+  background-color: orange;
+  color: black;
+}
