@@ -1,0 +1,185 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Poppins', sans-serif;
+    
+    }
+
+
+    .header-top{
+        display: flex;
+        flex-direction: row;
+        background-color: white;
+      /*   width: 100%; */
+      /*   margin: 10px; */
+         justify-content: space-between;
+         margin: 0 5rem;
+      }
+      .top-left{
+        background-color: white;
+      /*   width: 100px; */
+        margin: 10px;
+      }
+      .top-right{
+        /*   background-color: red; */
+        /*   width: 100px; */
+          margin: 10px; 
+        }      
+
+
+        .logo{
+            height: 2rem
+          }
+
+
+
+.top-header{
+    display: flex;
+    flex-direction: row;
+}
+.row{
+    display: flex;
+}
+
+a {
+    color: rgb(0, 75, 145);
+    cursor: pointer;
+    text-decoration: none;
+}
+.container top-navigation{
+    display: flexbox;
+}
+.navigation{display: flex;
+align-items: center;
+position: relative;
+background-color: #ffc107;
+}
+
+.navigation list{
+    padding: 12px;
+}
+
+.text-center {
+    text-align: center!important;
+}
+
+.background-div{
+    background-color: rgb(209, 209, 209);
+}
+
+
+  .container-cal{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding: 45px;
+      top: 70%;
+      bottom: 10%;
+      height: 300px;
+  }
+
+  
+
+  .container-cal label{
+      display: inline-block;
+      width: 540px;
+  }
+
+  #result {
+    text-align: center;
+    font-size: 20px;
+    font-size: 600;
+    color: #242e4c;
+  }
+
+  .footer{ margin-top: 120px;
+    height: 530px;
+
+padding: 50px;
+background:#333 ;
+color: #efefef;
+display: flex;
+flex-direction: row;
+
+justify-content: center;
+}
+
+
+.footer div{ text-align: center;
+    
+
+}
+.footer div h3{
+    font-weight: 300;
+    margin-bottom: 10px;
+    letter-spacing: 1px;
+
+}
+#col1 a{ 
+    text-decoration: none;
+    color: white;
+    display: block;
+
+
+
+}
+#col2{ margin-top: 32px;
+
+}
+#col3{ font-size: 14px;
+    padding: 12px;
+    margin-top: 6px;
+
+
+}
+
+#Footerinput input{
+    width: 330px;
+border-radius: 3px;
+border: none;
+text-align: center;
+outline: none;
+margin: 3px;
+}
+
+#Footerbtn{
+    
+    background: transparent;
+    border: 1px solid white ;
+    color: white;
+    border-radius: 2px;
+    width: 115px;
+    padding: 7px;
+}
+
+
+.lastfooter{
+    height: 42px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(46, 46, 46);
+    color: white;
+}
+
+
+
+
+/* Image logo set for both socials and icon */
+#logoo img{height: 68px;
+    background: transparent;
+}
+
+
+.logo{width: 43px;
+    height: 43px;
+    border-radius: 53px;
+    
+
+}
+.btn { margin-top: 18px;
+    padding: 2px;
+    background: transparent ;
+border: none;}
